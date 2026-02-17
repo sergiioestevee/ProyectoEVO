@@ -1,74 +1,78 @@
-/* src/assets/styles/card.css */
+/* src/assets/styles/button.css */
 
-/* Contenedor principal del Card */
-.card {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-/* Efecto hover */
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* Imagen dentro del Card */
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-
-/* Título del Card */
-.card-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #1e3a8a;
-  margin-bottom: 0.25rem;
-}
-
-/* Descripción del Card */
-.card-description {
-  font-size: 0.9rem;
-  color: #4b5563;
-  flex: 1;
-}
-
-/* Footer del Card: precio, botones, badges */
-.card-footer {
-  display: flex;
-  justify-content: space-between;
+/* Estilos base del botón */
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
   align-items: center;
-  margin-top: 0.5rem;
+  justify-content: center;
+  gap: 0.25rem;
 }
 
-/* Precio */
-.card-price {
-  font-weight: 600;
-  color: #111827;
+/* Variantes de color */
+.button-primary {
+  background-color: #1e40af;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #1e3a8a;
+}
+
+.button-secondary {
+  background-color: #6b7280;
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background-color: #4b5563;
+}
+
+.button-danger {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+.button-danger:hover {
+  background-color: #b91c1c;
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 2px solid #1e40af;
+  color: #1e40af;
+}
+
+.button-outline:hover {
+  background-color: #1e40af;
+  color: #fff;
+}
+
+/* Tamaños */
+.button-small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.button-medium {
+  padding: 0.5rem 1rem;
   font-size: 1rem;
 }
 
-/* Botón dentro del Card */
-.card .button {
-  padding: 0.4rem 0.8rem;
-  font-size: 0.9rem;
+.button-large {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
 }
 
-/* Badge */
-.card-badge {
-  background-color: #1e40af;
+/* Desactivado */
+.button:disabled {
+  background-color: #9ca3af;
   color: #fff;
-  font-size: 0.7rem;
-  font-weight: 500;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  text-transform: uppercase;
+  cursor: not-allowed;
+  opacity: 0.7;
 }

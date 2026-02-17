@@ -2,7 +2,7 @@
 
 import React, { createContext, useReducer } from "react";
 
-const OrderContext = createContext();
+export const OrderContext = createContext();
 
 const initialState = {
   orders: [],

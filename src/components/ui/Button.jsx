@@ -1,7 +1,7 @@
 // src/components/ui/Button.jsx
 
 import React from "react";
-import "../../assets/styles/components/button.css";
+import "../../assets/styles/button.css";
 
 const Button = ({
   children,

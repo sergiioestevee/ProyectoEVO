@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 import Button from "../ui/Button";
 import Logo from "../../assets/logo/logo.svg";
-import "../../assets/styles/components/navbar.css";
+import "../../assets/styles/navbar.css";
 
 const Navbar = () => {
   const { user, logout } = useAuth();

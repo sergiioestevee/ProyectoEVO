@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import "../../assets/styles/components/sidebar.css";
+import "../../assets/styles/sidebar.css";
 
 const Sidebar = ({ role }) => {
   const location = useLocation();

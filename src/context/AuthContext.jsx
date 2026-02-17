@@ -2,7 +2,7 @@
 
 import React, { createContext, useReducer, useEffect } from "react";
 
-const AuthContext = createContext();
+export const AuthContext = createContext();
 
 const initialState = {
   user: null,

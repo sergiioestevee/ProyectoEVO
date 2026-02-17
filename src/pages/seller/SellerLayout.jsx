@@ -4,7 +4,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "../../components/layout/Sidebar";
 import Navbar from "../../components/layout/Navbar";
-import "../../assets/styles/components/sidebar.css";
+import "../../assets/styles/sidebar.css";
 
 const SellerLayout = () => {
   return (

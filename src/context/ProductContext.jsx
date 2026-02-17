@@ -2,7 +2,7 @@
 
 import React, { createContext, useReducer } from "react";
 
-const ProductContext = createContext();
+export const ProductContext = createContext();
 
 const initialState = {
   products: [],
