@@ -1,0 +1,78 @@
+/* src/assets/styles/button.css */
+
+/* Estilos base del botón */
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+/* Variantes de color */
+.button-primary {
+  background-color: #1e40af;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #1e3a8a;
+}
+
+.button-secondary {
+  background-color: #6b7280;
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background-color: #4b5563;
+}
+
+.button-danger {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+.button-danger:hover {
+  background-color: #b91c1c;
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 2px solid #1e40af;
+  color: #1e40af;
+}
+
+.button-outline:hover {
+  background-color: #1e40af;
+  color: #fff;
+}
+
+/* Tamaños */
+.button-small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.button-medium {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.button-large {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Desactivado */
+.button:disabled {
+  background-color: #9ca3af;
+  color: #fff;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
