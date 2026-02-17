@@ -1,0 +1,32 @@
+/* src/assets/styles/sidebar.css */
+
+.sidebar {
+  width: 220px;
+  background-color: #1f2937;
+  color: #fff;
+  min-height: 100vh;
+  padding: 1rem;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar li a {
+  color: #fff;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.sidebar li a:hover {
+  background-color: #374151;
+}

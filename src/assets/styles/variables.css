@@ -1,0 +1,33 @@
+/* src/assets/styles/variables.css */
+
+:root {
+
+  /* 🎨 Colores principales B2B */
+  --color-primary: #1E3A8A;
+  --color-secondary: #2563EB;
+  --color-accent: #F59E0B;
+
+  --color-bg: #F9FAFB;
+  --color-surface: #FFFFFF;
+  --color-text: #111827;
+  --color-border: #E5E7EB;
+
+  /* 🅰 Tipografía */
+  --font-main: 'Inter', sans-serif;
+
+  /* 📏 Espaciado */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+
+  /* 🟦 Bordes */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* 🌫 Sombras */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
